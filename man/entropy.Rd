@@ -19,9 +19,9 @@ spectral density, estimated using an AR model.
 \details{
 The \emph{spectral entropy} equals the Shannon entropy of the spectral density
 \eqn{f_x(\lambda)} of a stationary process \eqn{x_t}:
-\deqn{ 
-H_s(x_t) = - \int_{-\pi}^{\pi} f_x(\lambda) \log f_x(\lambda) d \lambda, 
-}
+
+\deqn{H_s(x_t) = - \int_{-\pi}^{\pi} f_x(\lambda) \log f_x(\lambda) d \lambda,}
+
 where the density is normalized such that
 \eqn{\int_{-\pi}^{\pi} f_x(\lambda) d \lambda = 1}.
 An estimate of \eqn{f(\lambda)} can be obtained using \code{\link[stats]{spec.ar}} with
@@ -38,8 +38,8 @@ Interpretation of Spectral Entropy Based Upon Rate Distortion Functions}.
 IEEE International Symposium on Information Theory, pp. 277-281.
 
 Goerg, G. M. (2013). \dQuote{Forecastable Component Analysis}.
-Journal of Machine Learning Research (JMLR) W&CP 28 (2): 64-72, 2013.
-Available at \url{http://jmlr.org/proceedings/papers/v28/goerg13.html}.
+Proceedings of the 30th International Conference on Machine Learning (PMLR) 28 (2): 64-72, 2013.
+Available at \url{https://proceedings.mlr.press/v28/goerg13.html}.
 }
 \seealso{
 \code{\link[stats]{spec.ar}}

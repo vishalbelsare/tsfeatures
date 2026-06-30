@@ -4,6 +4,8 @@ doc
 .Rproj.user
 .Rhistory
 .RData
+docs
+revdep
 
 # History files
 .Rapp.history
@@ -19,3 +21,11 @@ vignettes/*.pdf
 README_cache
 inst/doc
 docs
+
+# Binaries
+
+src/*.o
+src/*.so
+src/*.dll
+
+snowflake.log
